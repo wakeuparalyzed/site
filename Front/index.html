@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Главная</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-buttons">
+      <a href="category.html?category=notebooks">Ноутбуки</a>
+      <a href="category.html?category=computers">Компьютеры</a>
+      <a href="category.html?category=phones">Телефоны</a>
+    </div>
+    <div class="cart-icon" onclick="toggleCart()">
+      🛒<span id="cart-count">0</span>
+    </div>
+  </header>
+  <div id="cart-popup" class="cart-popup hidden"></div>
+  <main>
+    <h1>Добро пожаловать!</h1>
+  </main>
+  <script src="cart.js"></script>
+</body>
+</html>
